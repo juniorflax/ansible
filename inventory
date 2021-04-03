@@ -1,4 +1,10 @@
-[all]
-node01
-node02
-node03
+---
+
+all:
+  hosts:
+    node01:
+      ansible_host: 192.168.15.21
+    node02:
+      ansible_host: 192.168.15.22
+    node03:
+      ansible_host: 192.168.15.23
