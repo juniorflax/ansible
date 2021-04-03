@@ -1,5 +1,5 @@
 ---
-- hosts: node02
+- hosts: 192.168.15.22
   become: yes
   tasks:
     - name: install apache2
