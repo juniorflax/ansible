@@ -1,5 +1,5 @@
 ---
-- hosts: apache
+- hosts: node02
   become: yes
   tasks:
     - name: install apache2
